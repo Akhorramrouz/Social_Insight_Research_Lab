@@ -72,6 +72,12 @@ elif page == "People":
 
     with discriptions:
         st.subheader("PhD Candidate")
+        st.markdown("""
+        Sujan is currently pursuing his Ph.D. in Computing and Information Sciences at the Rochester Institute of Technology. He is being advised by Prof. Ashique KhudaBukhsh. Sujan’s research focuses on mining social insights using advanced artificial intelligence and natural language processing methods.
+        Sujan recently completed his summer internship at Apple. 
+        He also creates educational videos about machine learning on his <a href="https://www.youtube.com/c/NormalizedNerd">link text</a>YouTube channel.
+
+        """,unsafe_allow_html=True)
 
     st.write("---")
     images, discriptions = st.columns([1,3])

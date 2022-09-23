@@ -67,6 +67,10 @@ elif page == "People":
     st.write("---")
     images, discriptions = st.columns([2,5])
     with images:
+        st.write("     ")
+        st.write("     ")
+        st.write("     ")
+        st.write("     ")
         st.image(show_circular_image('Sujan.jpg'), caption= "Sujan Dutta",
         width=185)
 
@@ -75,7 +79,7 @@ elif page == "People":
         st.markdown("""
         Sujan is currently pursuing his Ph.D. in Computing and Information Sciences at the Rochester Institute of Technology. He is being advised by Prof. Ashique KhudaBukhsh. Sujan’s research focuses on mining social insights using advanced artificial intelligence and natural language processing methods.
         Sujan recently completed his summer internship at Apple. 
-        He also creates educational videos about machine learning on his <a href="https://www.youtube.com/c/NormalizedNerd">link text</a>YouTube channel.
+        He also creates educational videos about machine learning on his <a href="https://www.youtube.com/c/NormalizedNerd">YouTube channel</a>.
 
         """,unsafe_allow_html=True)
 

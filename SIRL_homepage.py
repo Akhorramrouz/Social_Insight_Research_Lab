@@ -56,7 +56,7 @@ elif page == "People":
         st.write("     ")
         st.write("     ")
         st.write("     ")
-        st.image(show_circular_image('profile_images\Ashique.jpg'), caption= "Ashique KhudaBukhsh",
+        st.image(show_circular_image('Ashique.jpg'), caption= "Ashique KhudaBukhsh",
         width=200)
 
     with discriptions:
@@ -67,7 +67,7 @@ elif page == "People":
     st.write("---")
     images, discriptions = st.columns([2,5])
     with images:
-        st.image(show_circular_image('profile_images\Sujan.jpg'), caption= "Sujan Dutta",
+        st.image(show_circular_image('Sujan.jpg'), caption= "Sujan Dutta",
         width=185)
 
     with discriptions:
@@ -76,7 +76,7 @@ elif page == "People":
     st.write("---")
     images, discriptions = st.columns([1,3])
     with images:
-        st.image(show_circular_image('profile_images\Adel.jpg'), caption= "Adel Khorramrouz",
+        st.image(show_circular_image('Adel.jpg'), caption= "Adel Khorramrouz",
         width=175)
 
     with discriptions:
@@ -85,7 +85,7 @@ elif page == "People":
     st.write("---")
     images, discriptions = st.columns([1,3],)
     with images:
-        st.image(show_circular_image('profile_images\Seyd.jpg'), caption= "Syed Mohammad Sualeh A.",
+        st.image(show_circular_image('Seyd.jpg'), caption= "Syed Mohammad Sualeh A.",
         width=175)
 
     

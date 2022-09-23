@@ -56,7 +56,7 @@ elif page == "People":
         st.write("     ")
         st.write("     ")
         st.write("     ")
-        st.image(show_circular_image('profile_images\Ashique.jpg'), caption= "Ashique KhudaBukhsh",
+        st.image(show_circular_image('https://github.com/Akhorramrouz/Social_Insight_Research_Lab/blob/main/profile_images/Ashique.jpg'), caption= "Ashique KhudaBukhsh",
         width=200)
 
     with discriptions:
